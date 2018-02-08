@@ -1,0 +1,32 @@
+\documentclass[a4paper,twocolumn]{memoir}
+
+\renewcommand{\thechapter}{}
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage[svgnames]{xcolor}
+\usepackage{pdfpages}
+\usepackage{lipsum}
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{watermark}
+%\usepackage{showframe}
+
+%----------------------------------------------------------------------------------------
+%	MARGINS
+%----------------------------------------------------------------------------------------
+\setulmarginsandblock{1.5cm}{2.5cm}{*}
+\setlrmarginsandblock{2cm}{1.5cm}{*}
+\setheadfoot{6mm}{19mm}
+\checkandfixthelayout
+
+\includepdfset{
+  pages=-,
+  fitpaper=true,
+  pagecommand={},
+  offset= 3mm -14mm
+  }

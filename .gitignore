@@ -1,0 +1,9 @@
+*.pdf
+*.ps
+*.midi
+*.mid
+*.log
+*.aux
+*.toc
+*~
+*.DS_Store
